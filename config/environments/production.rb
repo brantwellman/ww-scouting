@@ -1,4 +1,5 @@
 WwScouting::Application.configure do
+  confi.action_mailer.default_url_options = { :host => 'ww-scouting.herokuapp.com' }
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
